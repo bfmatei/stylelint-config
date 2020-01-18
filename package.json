@@ -1,0 +1,26 @@
+{
+  "name": "@bmatei/stylelint-config",
+  "version": "1.0.0",
+  "description": "Configurations for StyleLint",
+  "author": "Bogdan Matei <bogdan@matei.dev>",
+  "license": "MIT",
+  "homepage": "https://github.com/bfmatei/stylelint-config#readme",
+  "repository": "github:bfmatei/stylelint-config",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "gitDir": "../",
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "husky": "4.0.10",
+    "lint-staged": "9.5.0",
+    "prettier": "1.19.1"
+  }
+}
