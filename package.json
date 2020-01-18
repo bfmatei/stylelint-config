@@ -1,6 +1,6 @@
 {
   "name": "@bmatei/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Configurations for StyleLint",
   "author": "Bogdan Matei <bogdan@matei.dev>",
   "license": "MIT",
@@ -13,7 +13,7 @@
   },
   "lint-staged": {
     "gitDir": "../",
-    "*.json": [
+    "*.js,*.json": [
       "prettier --write",
       "git add"
     ]

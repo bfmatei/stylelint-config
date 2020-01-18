@@ -1,6 +1,6 @@
 module.exports = {
   $schema: 'http://json.schemastore.org/stylelintrc',
-  extends: ['./base.json'],
+  extends: '@bmatei/stylelint-config/base',
   rules: {
     // Possible errors
     // General / Sheet
