@@ -1,4 +1,4 @@
-extends: '@bmatei/stylelint-config/base'
+extends: '@bmatei/stylelint-config/base.yaml'
 
 rules:
     # Possible errors
