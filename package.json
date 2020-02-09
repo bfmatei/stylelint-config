@@ -1,26 +1,19 @@
 {
   "name": "@bmatei/stylelint-config",
-  "version": "1.0.3",
+  "version": "0.0.0-development",
   "description": "Configurations for StyleLint",
   "author": "Bogdan Matei <bogdan@matei.dev>",
   "license": "MIT",
   "homepage": "https://github.com/bfmatei/stylelint-config#readme",
   "repository": "github:bfmatei/stylelint-config",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "gitDir": "../",
-    "*.{js,json}": [
-      "prettier --write",
-      "git add"
-    ]
+  "scripts": {
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "5.0.0",
     "husky": "4.0.10",
     "lint-staged": "9.5.0",
-    "prettier": "1.19.1"
+    "prettier": "1.19.1",
+    "semantic-release": "17.0.2"
   }
 }
