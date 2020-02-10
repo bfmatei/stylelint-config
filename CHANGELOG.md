@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/bfmatei/stylelint-config/compare/v1.1.0...v1.1.1) (2020-02-10)
+
+
+### Bug Fixes
+
+* add keywords ([686677e](https://github.com/bfmatei/stylelint-config/commit/686677e80b7c5eaa38b04923c1fd028b3f1158cf))
+
 # [1.1.0](https://github.com/bfmatei/stylelint-config/compare/v1.0.6...v1.1.0) (2020-02-10)
 
 
