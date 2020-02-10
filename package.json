@@ -2,6 +2,7 @@
   "name": "@bmatei/stylelint-config",
   "version": "0.0.0-development",
   "description": "Configurations for StyleLint",
+  "keywords": ["lint", "stylelint", "prettier"],
   "author": "Bogdan Matei <bogdan@matei.dev>",
   "license": "MIT",
   "homepage": "https://github.com/bfmatei/stylelint-config#readme",
