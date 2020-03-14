@@ -2,7 +2,7 @@
 
 ## Versions
 
-- `stylelint` - 13.2.0
+- `stylelint` - 13.2.1
 - `stylelint-config-prettier` - 8.0.1
 - `prettier` - 1.19.1
 
