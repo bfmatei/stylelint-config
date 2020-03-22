@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/bfmatei/stylelint-config/compare/v1.1.4...v1.1.5) (2020-03-22)
+
+
+### Bug Fixes
+
+* update libraries ([26748a9](https://github.com/bfmatei/stylelint-config/commit/26748a966df3522b62eb0c142e571db46334749e))
+
 ## [1.1.4](https://github.com/bfmatei/stylelint-config/compare/v1.1.3...v1.1.4) (2020-03-14)
 
 
