@@ -3,5 +3,3 @@ $schema: 'http://json.schemastore.org/stylelintrc'
 extends:
   - '@bmatei/stylelint-config/partials/base.yaml'
   - '@bmatei/stylelint-config/partials/prettier.yaml'
-  - '@bmatei/stylelint-config/partials/scss.yaml'
-  - '@bmatei/stylelint-config/partials/scss.prettier.yaml'
