@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/bfmatei/stylelint-config/compare/v1.1.5...v1.2.0) (2020-03-24)
+
+
+### Features
+
+* Add SCSS ([dcbc3c9](https://github.com/bfmatei/stylelint-config/commit/dcbc3c9216e51bc49bc6e8662a30c6ed9c8e013c))
+
 ## [1.1.5](https://github.com/bfmatei/stylelint-config/compare/v1.1.4...v1.1.5) (2020-03-22)
 
 
