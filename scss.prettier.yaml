@@ -1,0 +1,5 @@
+$schema: 'http://json.schemastore.org/stylelintrc'
+
+extends:
+  - '@bmatei/stylelint-config/prettier.yaml'
+  - '@bmatei/stylelint-config/scss.yaml'

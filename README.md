@@ -4,6 +4,7 @@
 
 - `stylelint` - 13.2.1
 - `stylelint-config-prettier` - 8.0.1
+- `stylelint-scss` - 3.16.0
 - `prettier` - 2.0.1
 
 ## How to Update
@@ -90,6 +91,7 @@
 #### At-rule
 
 - `at-rule-blacklist`- disabled since we don't have anything to blacklist
+- `at-rule-no-unknown` - disabled - SCSS
 - `at-rule-property-requirelist` - disabled since we don't have a list of requires for at-rules
 - `at-rule-whitelist`- disabled since we don't have anything to whitelist
 
