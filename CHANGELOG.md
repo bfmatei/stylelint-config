@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/bfmatei/stylelint-config/compare/v1.2.1...v1.2.2) (2020-03-24)
+
+
+### Bug Fixes
+
+* SCSS at-rule ([5d0b0fe](https://github.com/bfmatei/stylelint-config/commit/5d0b0fefba97e4ad6b96957160b562b904f79266))
+
 ## [1.2.1](https://github.com/bfmatei/stylelint-config/compare/v1.2.0...v1.2.1) (2020-03-24)
 
 
