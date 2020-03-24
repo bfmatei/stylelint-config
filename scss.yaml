@@ -7,7 +7,7 @@ plugins:
 
 rules:
   # At-rule
-  at-rule-no-unknown: true
+  at-rule-no-unknown: null
 
   # @-each
   scss/at-each-key-value-single-line: null
