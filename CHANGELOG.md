@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/bfmatei/stylelint-config/compare/v1.2.0...v1.2.1) (2020-03-24)
+
+
+### Bug Fixes
+
+* Unicode bom ([a7da86c](https://github.com/bfmatei/stylelint-config/commit/a7da86c7638458d8f2fd1b00c1498711b18ac6d6))
+
 # [1.2.0](https://github.com/bfmatei/stylelint-config/compare/v1.1.5...v1.2.0) (2020-03-24)
 
 
