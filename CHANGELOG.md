@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/bfmatei/stylelint-config/compare/v1.2.2...v1.3.0) (2020-03-24)
+
+
+### Features
+
+* Separate partials ([fbdaf23](https://github.com/bfmatei/stylelint-config/commit/fbdaf236257623a1dec6f2a9c21713ad0de54a2a))
+
 ## [1.2.2](https://github.com/bfmatei/stylelint-config/compare/v1.2.1...v1.2.2) (2020-03-24)
 
 
