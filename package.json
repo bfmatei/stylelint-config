@@ -1,7 +1,7 @@
 {
   "name": "@bmatei/stylelint-config",
   "version": "0.0.0-development",
-  "description": "Configurations for stylelint",
+  "description": "Configurations for stylelint.",
   "keywords": [
     "lint",
     "stylelint",
