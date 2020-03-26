@@ -13,7 +13,7 @@
   "homepage": "https://github.com/bfmatei/stylelint-config#readme",
   "repository": "github:bfmatei/stylelint-config",
   "scripts": {
-    "prettify": "prettier --write \"./**/*.{json,yaml}\"",
+    "prettify": "prettier --write \"./**/*.{json,yaml,yml}\"",
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
