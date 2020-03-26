@@ -1,11 +1,11 @@
-# StyleLint Configuration
+# stylelint Configuration
 
 ## Versions
 
 - `stylelint` - 13.2.1
 - `stylelint-config-prettier` - 8.0.1
 - `stylelint-scss` - 3.16.0
-- `prettier` - 2.0.1
+- `prettier` - 2.0.2
 
 ## How to Update
 
