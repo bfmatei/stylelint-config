@@ -4,9 +4,10 @@
   "description": "Configurations for stylelint.",
   "keywords": [
     "lint",
-    "stylelint",
     "prettier",
-    "scss"
+    "scss",
+    "stylelint",
+    "stylelint-scss"
   ],
   "author": "Bogdan Matei <bogdan@matei.dev>",
   "license": "MIT",
