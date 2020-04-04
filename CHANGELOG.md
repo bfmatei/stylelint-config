@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/bfmatei/stylelint-config/compare/v1.3.0...v1.3.1) (2020-04-04)
+
+
+### Bug Fixes
+
+* First version of the SCSS rules ([ae6c971](https://github.com/bfmatei/stylelint-config/commit/ae6c971f98d083b0f2ed69d932cda7186412cc4f))
+
 # [1.3.0](https://github.com/bfmatei/stylelint-config/compare/v1.2.2...v1.3.0) (2020-03-24)
 
 
