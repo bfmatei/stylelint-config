@@ -8,21 +8,21 @@ rules:
   at-rule-no-unknown: null
 
   # @-each
-  scss/at-each-key-value-single-line: null
+  scss/at-each-key-value-single-line: true
 
   # @-else
   scss/at-else-closing-brace-newline-after: null
   scss/at-else-closing-brace-space-after: null
   scss/at-else-empty-line-before: null
-  scss/at-else-if-parentheses-space-before: null
+  scss/at-else-if-parentheses-space-before: 'always'
 
   # @-extend
-  scss/at-extend-no-missing-placeholder: null
+  scss/at-extend-no-missing-placeholder: true
 
   # @-function
-  scss/at-function-named-arguments: null
-  scss/at-function-parentheses-space-before: null
-  scss/at-function-pattern: null
+  scss/at-function-named-arguments: 'always'
+  scss/at-function-parentheses-space-before: 'never'
+  scss/at-function-pattern: '^[a-z]+([a-z0-9-]+[a-z0-9]+)?$'
 
   # @-if
   scss/at-if-closing-brace-newline-after: null
@@ -30,76 +30,87 @@ rules:
   scss/at-if-no-null: null
 
   # @-import
-  scss/at-import-no-partial-leading-underscore: null
-  scss/at-import-partial-extension: null
+  scss/at-import-no-partial-leading-underscore: true
+  scss/at-import-partial-extension: 'never'
   scss/at-import-partial-extension-blacklist: null
   scss/at-import-partial-extension-whitelist: null
 
   # @-mixin
-  scss/at-mixin-argumentless-call-parentheses: null
-  scss/at-mixin-named-arguments: null
-  scss/at-mixin-parentheses-space-before: null
-  scss/at-mixin-pattern: null
+  scss/at-mixin-argumentless-call-parentheses: 'always'
+  scss/at-mixin-named-arguments: 'always'
+  scss/at-mixin-parentheses-space-before: 'never'
+  scss/at-mixin-pattern: '^[a-z]+([a-z0-9-]+[a-z0-9]+)?$'
 
   # @-rule
   scss/at-rule-conditional-no-parentheses: null
   scss/at-rule-no-unknown: true
 
   # $-variable
-  scss/dollar-variable-colon-newline-after: null
-  scss/dollar-variable-colon-space-after: null
-  scss/dollar-variable-colon-space-before: null
+  scss/dollar-variable-colon-newline-after: 'always-multi-line'
+  scss/dollar-variable-colon-space-after: 'always-single-line'
+  scss/dollar-variable-colon-space-before: 'never'
   scss/dollar-variable-default: null
-  scss/dollar-variable-empty-line-after: null
-  scss/dollar-variable-empty-line-before: null
+  scss/dollar-variable-empty-line-after:
+    - 'always'
+    - except:
+        - 'last-nested'
+  scss/dollar-variable-empty-line-before:
+    - 'always'
+    - except:
+        - 'first-nested'
+        - 'after-comment'
+        - 'after-dollar-variable'
   scss/dollar-variable-first-in-block: null
-  scss/dollar-variable-no-missing-interpolation: null
-  scss/dollar-variable-pattern: null
+  scss/dollar-variable-no-missing-interpolation: true
+  scss/dollar-variable-pattern: '^[_]?[a-z]+([a-z0-9-]+[a-z0-9]+)?$'
 
   # %-placeholder
-  scss/percent-placeholder-pattern: null
+  scss/percent-placeholder-pattern: '^[a-z]+([a-z0-9-]+[a-z0-9]+)?$'
 
   # //-comment
   scss/double-slash-comment-empty-line-before: null
   scss/double-slash-comment-inline: null
-  scss/double-slash-comment-whitespace-inside: null
+  scss/double-slash-comment-whitespace-inside: 'always'
 
   # Comment
   scss/comment-no-loud: null
 
   # Declaration
-  scss/declaration-nested-properties: null
+  scss/declaration-nested-properties: 'never'
   scss/declaration-nested-properties-no-divided-groups: null
 
   # Dimension
   scss/dimension-no-non-numeric-values: null
 
   # Function
-  scss/function-color-relative: null
+  scss/function-color-relative: true
   scss/function-quote-no-quoted-strings-inside: null
-  scss/function-unquote-no-unquoted-strings-inside: null
+  scss/function-unquote-no-unquoted-strings-inside: true
 
   # Map
   scss/map-keys-quotes: null
 
   # Media feature
-  scss/media-feature-value-dollar-variable: null
+  scss/media-feature-value-dollar-variable:
+    - 'always'
+    - ignore:
+        - 'keywords'
 
   # Operator
   scss/operator-no-newline-after: null
-  scss/operator-no-newline-before: null
-  scss/operator-no-unspaced: null
+  scss/operator-no-newline-before: true
+  scss/operator-no-unspaced: true
 
   # Partial
   scss/partial-no-import: null
 
   # Selector
-  scss/selector-nest-combinators: null
+  scss/selector-nest-combinators: 'always'
   scss/selector-no-redundant-nesting-selector: null
   scss/selector-no-union-class-name: null
 
   # General / Sheet
   scss/no-dollar-variables: null
-  scss/no-duplicate-dollar-variables: null
-  scss/no-duplicate-mixins: null
-  scss/no-global-function-names: null
+  scss/no-duplicate-dollar-variables: true
+  scss/no-duplicate-mixins: true
+  scss/no-global-function-names: true

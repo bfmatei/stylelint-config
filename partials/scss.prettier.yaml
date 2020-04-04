@@ -1,1 +1,30 @@
 $schema: 'http://json.schemastore.org/stylelintrc'
+
+rules:
+  # @-else
+  scss/at-else-closing-brace-newline-after: null
+  scss/at-else-closing-brace-space-after: null
+  scss/at-else-empty-line-before: null
+  scss/at-else-if-parentheses-space-before: null
+
+  # @-function
+  scss/at-function-parentheses-space-before: null
+
+  # @-if
+  scss/at-if-closing-brace-newline-after: null
+  scss/at-if-closing-brace-space-after: null
+
+  # @-mixin
+  scss/at-mixin-parentheses-space-before: null
+
+  # $-variable
+  scss/dollar-variable-colon-newline-after: null
+  scss/dollar-variable-colon-space-after: null
+  scss/dollar-variable-colon-space-before: null
+
+  # //-comment
+  scss/double-slash-comment-whitespace-inside: null
+
+  # Operator
+  scss/operator-no-newline-after: null
+  scss/operator-no-newline-before: null
