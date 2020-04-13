@@ -20,7 +20,7 @@ rules:
   scss/at-extend-no-missing-placeholder: true
 
   # @-function
-  scss/at-function-named-arguments: 'always'
+  scss/at-function-named-arguments: 'never'
   scss/at-function-parentheses-space-before: 'never'
   scss/at-function-pattern: '^[a-z]+([a-z0-9-]+[a-z0-9]+)?$'
 
@@ -59,7 +59,6 @@ rules:
     - except:
         - 'first-nested'
         - 'after-comment'
-        - 'after-dollar-variable'
   scss/dollar-variable-first-in-block: null
   scss/dollar-variable-no-missing-interpolation: true
   scss/dollar-variable-pattern: '^[_]?[a-z]+([a-z0-9-]+[a-z0-9]+)?$'
