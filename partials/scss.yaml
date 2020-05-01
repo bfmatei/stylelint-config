@@ -72,6 +72,7 @@ rules:
   scss/double-slash-comment-whitespace-inside: 'always'
 
   # Comment
+  scss/comment-no-empty: true
   scss/comment-no-loud: null
 
   # Declaration

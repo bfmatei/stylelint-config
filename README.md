@@ -2,9 +2,9 @@
 This package aims at creating universal configurations for stylelint that restricts the coding standards as much as possible. It is inspired but various rules packages but compiles everything into only one, dependency-free package.
 
 ## Versions
-- `prettier` - 2.0.4
-- `stylelint` - 13.3.1
-- `stylelint-scss` - 3.16.1
+- `prettier` - 2.0.5
+- `stylelint` - 13.3.3
+- `stylelint-scss` - 3.17.1
 
 ## Rules Details
 ### Possible errors
