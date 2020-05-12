@@ -4,7 +4,7 @@ This package aims at creating universal configurations for stylelint that restri
 ## Versions
 - `prettier` - 2.0.5
 - `stylelint` - 13.3.3
-- `stylelint-scss` - 3.17.1
+- `stylelint-scss` - 3.17.2
 
 ## Rules Details
 ### Possible errors
